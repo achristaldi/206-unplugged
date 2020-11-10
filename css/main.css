@@ -112,7 +112,7 @@ body {
 ul, ol {
   font-family: 'Open Sans 700', sans-serif;
   font-size: 1.1em;
-  list-style: none;
+  list-style-type: none;
 }
 
 a {
@@ -123,6 +123,7 @@ a {
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.25em;
+
 }
 
 h2 {
@@ -172,6 +173,7 @@ footer {
 
 header {
   padding: 15px 0;
+  background-color: #202322;
 }
 
 header .content-wrapper {
@@ -204,6 +206,8 @@ header nav ul {
 
 footer {
   flex-direction: column;
+  background-color: #202322;
+  color: #e2e3ed;
 }
 
 footer p {
@@ -233,6 +237,33 @@ footer .social-icons p {
 
 footer .copyright {
   margin: 20px 0;
+  text-align: center;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -245,6 +276,10 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
+.hero-area h1 {
+  color: #e2e3ed;
+}
+
 /* Aside */
 
 aside {
@@ -252,6 +287,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+  color: #e2e3ed;
 }
 
 /* Features */
@@ -264,6 +301,8 @@ aside {
 
 .features h2 {
   margin-bottom: 60px;
+  color: #e2e3ed;
+
 }
 
 .features article {
@@ -276,6 +315,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  color: #e2e3ed;
 }
 
 .features p {
@@ -288,15 +328,22 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
   margin-bottom: 40px;
+  color: #e2e3ed;
 }
 
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
+  color: #e2e3ed;
+}
+
+.reviews p {
+  color: #e2e3ed;
 }
 
 /* ==========================================================================
