@@ -487,6 +487,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+  color: #e2e3ed;
 }
 
 .faq .content-wrapper {
@@ -495,14 +497,21 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+
 }
 
 .faq h2 {
-  margin-bottom: 40px;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .faq-content {
   margin-bottom: 50px;
+}
+
+.faq-content h4 {
+  margin: 0;
+  padding-bottom: 5px;
 }
 
 /* ==========================================================================
@@ -612,7 +621,7 @@ aside {
 
   h3, h4 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
 }
   
     /* Header */
@@ -804,7 +813,11 @@ aside {
     .faq h2 {
       width: 100%;
     }
-  }
+
+    .faq h4 {
+      font-size: ;
+    }
+  
 
   @media only screen and (min-width: 1200px) {
     /* General styles */
